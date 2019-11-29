@@ -7,12 +7,12 @@ var test;
 {
   startbtn.addEventListener('click', () => {
     const results = [
-      'img/picA.jpg',
-      'img/picB.jpg',
-      'img/picC.jpg',
-      'img/picD.jpg',
-      'img/picE.jpg',
-      'img/picF.jpg',
+      'picA.jpg',
+      'picB.jpg',
+      'picC.jpg',
+      'picD.jpg',
+      'picE.jpg',
+      'picF.jpg',
     ];
     test = results[Math.floor(Math.random() * results.length)];
     mainImage.src = test;
@@ -30,32 +30,32 @@ function store(score) {
 
 nextbtn.addEventListener('click', () => {
    switch(test) {
-     case 'img/picA.jpg':
+     case 'picA.jpg':
          console.log('A');
          window.open('sortA.html', '_blank');
          break;
  
-     case 'img/picB.jpg':
+     case 'picB.jpg':
          console.log('B');
          window.open('sortB.html', '_blank');
          break;
  
-     case 'img/picC.jpg':
+     case 'picC.jpg':
          console.log('C');
          window.open('sortC.html', '_blank');
          break;
 
-     case 'img/picD.jpg':
+     case 'picD.jpg':
          console.log('D');
          window.open('sortD.html', '_blank');
           break;
 
-     case 'img/picE.jpg':
+     case 'picE.jpg':
           console.log('E');
           window.open('sortE.html', '_blank');
          break;
 
-     case 'img/picF.jpg':
+     case 'picF.jpg':
           console.log('F');
           window.open('sortF.html', '_blank');
           break;
